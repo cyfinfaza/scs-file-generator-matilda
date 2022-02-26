@@ -4,7 +4,7 @@ from utils.downloadCSV import downloadCSV
 from datetime import datetime
 
 X_OFFSET = 0
-Y_OFFSET = 0
+Y_OFFSET = 1
 INDEX_CUE_NAMES = True
 AUTO_DOWNLOAD_URL = "https://docs.google.com/spreadsheets/d/1VwNL2EPMhK5zRUr6NZi1qAGercA4MiS_ut-nJdugD_A/edit?usp=sharing"
 AUTO_DOWNLOAD_FILENAME = "Matilda SCS - Sheet1.csv"
