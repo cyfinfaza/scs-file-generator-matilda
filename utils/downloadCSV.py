@@ -23,7 +23,7 @@ def downloadCSV(url):
         await page.keyboard.press("KeyC")
         await asyncio.sleep(1)
         # await page.screenshot({"path": "example.png"})
-        # await browser.close()
+        await browser.close()
 
     asyncio.get_event_loop().run_until_complete(main())
 
