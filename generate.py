@@ -1,6 +1,6 @@
 # %% init
 import csv
-from downloadCSV import downloadCSV
+from utils.downloadCSV import downloadCSV
 from datetime import datetime
 
 X_OFFSET = 0
@@ -22,7 +22,7 @@ if autoDownload:
 else:
     csvFileName = input("Input File (csv): ")
 
-with open(csvFileName) as file:
+with open("input/" + csvFileName) as file:
     spreadsheet = list(csv.reader(file, quotechar='"'))[Y_OFFSET:]
 
 columns = list(zip(*spreadsheet))[X_OFFSET:]

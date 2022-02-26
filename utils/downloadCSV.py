@@ -21,7 +21,7 @@ def downloadCSV(url):
         await asyncio.sleep(0.5)
         await page.keyboard.press("KeyD")
         await page.keyboard.press("KeyC")
-        await asyncio.sleep(0.5)
+        await asyncio.sleep(1)
         # await page.screenshot({"path": "example.png"})
         # await browser.close()
 
