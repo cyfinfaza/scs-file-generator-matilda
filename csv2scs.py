@@ -95,7 +95,7 @@ print("SCS generated successfully")
 
 # %% save output
 outputFileName = (
-    "output/" + f"{SHOW_NAME} {datetime.now().strftime('%d %b %H%M')}.scs11"
+    "output/" + f"{SHOW_NAME} {datetime.now().strftime('%d %b %H%M%S')}.scs11"
 )
 with open(outputFileName, "w") as file:
     file.write(output)
