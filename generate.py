@@ -53,7 +53,7 @@ for scene in scenes:
         cue["muteCues"].append(
             {
                 "controlNumber": micNumbers[i] - 1,
-                "level": 0 if scene["mics"][i] else 127,
+                "level": 127 if scene["mics"][i] else 0,
             }
         )
     cues.append(cue)
